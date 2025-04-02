@@ -3,6 +3,7 @@ using EntityFrameWorkProject.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Identity.Client;
 using System.Diagnostics.Tracing;
 using System.IO;
 using System.Threading.Tasks;
@@ -74,19 +75,24 @@ namespace EFCore
                     TeacherId = 2
                 });
 
-
-
                 await unitOf.CompleteAsyn();
 
-                List<Teacher> teachers =await unitOf.TeacherRepository.GetAll() as List<Teacher>;
-                List<Student> students =await unitOf.StudentRepository.GetAll() as List<Student>;
-                List<Class> classes =await unitOf.CLassRepository.GetAll() as List<Class>;
-                List<Subject> subjects =await unitOf.SubjectRepository.GetAll() as List<Subject>;
+                List<Teacher> teachers =await unitOf.TeacherReadOnlyRepository.GetAll() as List<Teacher>;
+                List<Student> students =await unitOf.StudentReadOnlyRepository.GetAll() as List<Student>;
+                List<Class> classes =await unitOf.CLassReadOnlyRepository.GetAll() as List<Class>;
+                List<Subject> subjects =await unitOf.SubjectReadOnlyRepository.GetAll() as List<Subject>;
 
-                Console.WriteLine($"teacher: { teachers.Count() }");
+                Console.WriteLine($"teachers: { teachers.Count() }");
                 Console.WriteLine($"students: { students.Count() }");
                 Console.WriteLine($"classes: { classes.Count() }");
                 Console.WriteLine($"subjects: { subjects.Count()}");
+
+
+                //use stored procedure
+
+                //var student = await sc.Persons.FromSqlRaw("EXEC [GetStudentByStudentNumber] @p0", 122).FirstOrDefaultAsync();
+
+                //Console.WriteLine( student.FirstName);
 
             }
 

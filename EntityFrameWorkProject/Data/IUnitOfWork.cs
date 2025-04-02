@@ -13,7 +13,10 @@ namespace EntityFrameWorkProject.Data
          IRepository<Student> StudentRepository { get; set; }
          IRepository<Class> CLassRepository { get; set; }
          IRepository<Subject> SubjectRepository { get; set; }
-
-         Task CompleteAsyn();
+         IReadOnlyRepository<Teacher> TeacherReadOnlyRepository { get; set; }
+         IReadOnlyRepository<Student> StudentReadOnlyRepository { get; set; }
+         IReadOnlyRepository<Class> CLassReadOnlyRepository { get; set; }
+         IReadOnlyRepository<Subject> SubjectReadOnlyRepository { get; set; }
+        Task CompleteAsyn();
     }
 }

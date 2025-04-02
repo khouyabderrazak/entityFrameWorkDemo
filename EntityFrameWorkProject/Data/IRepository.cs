@@ -10,8 +10,8 @@ namespace EntityFrameWorkProject.Data
     {
         Task<T> addOne(T t);
         Task<bool> DeleteOne(int id);
-        Task<T> GetById(int id);
-        Task<IList<T>> GetAll();
+        //Task<T> GetById(int id);
+        //Task<IList<T>> GetAll();
         Task<T> UpdateOne(T t);
     }
 }

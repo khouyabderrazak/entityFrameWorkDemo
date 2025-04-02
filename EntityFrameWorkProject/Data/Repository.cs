@@ -32,17 +32,7 @@ namespace EntityFrameWorkProject.Data
                 
         }
 
-        public async Task<IList<T>> GetAll()
-        {
-            return await _db.Set<T>().ToListAsync();
-        }
-
-        public async Task<T> GetById(int id)
-        {
-            return await _db.Set<T>().FindAsync(id);
-          
-        }
-
+       
         public async Task<T> UpdateOne(T t)
         {
              _db.Set<T>().Update(t);
