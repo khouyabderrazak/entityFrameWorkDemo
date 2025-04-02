@@ -4380,11 +4380,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\akhouy\\source\\repos\\EntityFrameWorkProject\\EntityFrameWorkProject\\EntityFrameWorkProject.csproj",
+      "projectUniqueName": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\EntityFrameWorkProject.csproj",
       "projectName": "EntityFrameWorkProject",
-      "projectPath": "C:\\Users\\akhouy\\source\\repos\\EntityFrameWorkProject\\EntityFrameWorkProject\\EntityFrameWorkProject.csproj",
+      "projectPath": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\EntityFrameWorkProject.csproj",
       "packagesPath": "C:\\Users\\akhouy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\akhouy\\source\\repos\\EntityFrameWorkProject\\EntityFrameWorkProject\\obj\\",
+      "outputPath": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

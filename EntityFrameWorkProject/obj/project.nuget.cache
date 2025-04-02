@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PHsY1ddRpDw=",
+  "dgSpecHash": "s57n4v3YC2g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\akhouy\\source\\repos\\EntityFrameWorkProject\\EntityFrameWorkProject\\EntityFrameWorkProject.csproj",
+  "projectFilePath": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\EntityFrameWorkProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\akhouy\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\akhouy\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

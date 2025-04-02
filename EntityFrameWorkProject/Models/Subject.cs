@@ -20,5 +20,6 @@ namespace EntityFrameWorkProject.Models
         [Required]
         public string Description { get; set; }
 
+        public ICollection<Teacher>? Teachers { get; set; }
     }
 }

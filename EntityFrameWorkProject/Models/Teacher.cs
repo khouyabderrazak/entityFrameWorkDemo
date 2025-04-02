@@ -23,5 +23,7 @@ namespace EntityFrameWorkProject.Models
 
         public Subject? Subject { get; set; }
 
+        public ICollection<Class>? Classes { get; set; }
+
     }
 }

@@ -34,20 +34,22 @@ namespace EntityFrameWorkProject.Data
         {
             base.OnModelCreating(modelBuilder);
 
+            
             modelBuilder.Entity<Person>()
                 .HasDiscriminator<string>("type")
                 .HasValue<Student>("student")
                 .HasValue<Teacher>("teacher");
 
-            modelBuilder.Entity<Teacher>()
-                .HasOne(tch => tch.Subject)
-                .WithOne()
-                .HasForeignKey<Teacher>(tch => tch.SubjectId);
+           
+            modelBuilder.Entity<Subject>()
+                .HasMany(sb => sb.Teachers)
+                .WithOne(tch => tch.Subject)
+                .HasForeignKey(tch => tch.SubjectId);
 
-            modelBuilder.Entity<Class>()
-               .HasOne(cl => cl.Teacher)
-               .WithOne()
-               .HasForeignKey<Class>(cl => cl.TeacherId)
+            modelBuilder.Entity<Teacher>()
+               .HasMany(cl => cl.Classes)
+               .WithOne(cl => cl.Teacher)
+               .HasForeignKey(cl => cl.TeacherId)
                 ;
 
             modelBuilder.Entity<Enrollment>()
@@ -65,6 +67,11 @@ namespace EntityFrameWorkProject.Data
                  .OnDelete(DeleteBehavior.NoAction)
                  ;
 
+
+
+
+            // insert some initial data
+
             modelBuilder.Entity<Student>().HasData(
                 new Student()
                 {
@@ -74,12 +81,27 @@ namespace EntityFrameWorkProject.Data
                     StudentNumber = 1222
                 }
                 );
+
+            modelBuilder.Entity<Subject>().HasData(
+                new Subject()
+                {
+                    Id = 1,
+                    Description = "subject discription",
+                    Name = "subject 1",
+                }
+                );
+
+            modelBuilder.Entity<Teacher>().HasData(
+
+                new Teacher()
+                {
+                    Id = 2,
+                    FirstName = "hamzae",
+                    LastName = "KHouy",
+                    HireDate = DateTime.Now,
+                    SubjectId = 1
+                }
+                );
            }
-
-
-
-          
-    
-
-    }
+}
 }

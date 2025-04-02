@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using System.Diagnostics.Tracing;
 using System.IO;
+using System.Threading.Tasks;
 
 
 // Source: StackOverflow – Resolving the issue of no DbContext instance available during migration.
@@ -17,16 +18,14 @@ namespace EFCore
         public AppDbContext CreateDbContext(string[] args)
         {
            
-           //var connectionString = "Server=RAB68WZ2H2;Database=mydb;Integrated Security=True;Trusted_Connection=True;TrustServerCertificate=True;";
+           var connectionString = "Server=RAB68WZ2H2;Database=mydb;Integrated Security=True;Trusted_Connection=True;TrustServerCertificate=True;";
 
-            var configurationBuilder = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+            //var configurationBuilder = new ConfigurationBuilder()
+            //    .SetBasePath(Directory.GetCurrentDirectory())
+            //    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
 
-            IConfigurationRoot configuration = configurationBuilder.Build();
-            string connectionString = configuration.GetConnectionString("connectionString");
-
-
+            //IConfigurationRoot configuration = configurationBuilder.Build();
+            //string connectionString = configuration.GetConnectionString("connectionString");
 
             DbContextOptionsBuilder<AppDbContext> optionsBuilder = new DbContextOptionsBuilder<AppDbContext>()
                 .UseSqlServer(connectionString);
@@ -34,14 +33,63 @@ namespace EFCore
             return new AppDbContext(optionsBuilder.Options);
         }
 
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             Program p = new Program();
 
             using (AppDbContext sc = p.CreateDbContext(null))
             {
-                sc.Database.Migrate();
+                IUnitOfWork unitOf = new UnitOfWork(sc);
+
+                await unitOf.SubjectRepository.addOne(new Subject()
+                {
+                    Name = "some subject",
+                    Description = "some description"
+                });
+
+
+                await unitOf.TeacherRepository.addOne(new Teacher()
+                {
+
+                    FirstName = "ali",
+                    LastName = "khouy",
+                    SubjectId = 1,
+                    HireDate = DateTime.Now
+                });
+
+
+                await unitOf.StudentRepository.addOne(new Student()
+                {
+
+                    FirstName = "saida",
+                    LastName = "khouy",
+                    StudentNumber = 123
+                });
+
+                await unitOf.CLassRepository.addOne(new Class()
+                {
+                    Description = "class decription",
+                    Level = "cp2",
+                    Name = "class 1",
+                    TeacherId = 2
+                });
+
+
+
+                await unitOf.CompleteAsyn();
+
+                List<Teacher> teachers =await unitOf.TeacherRepository.GetAll() as List<Teacher>;
+                List<Student> students =await unitOf.StudentRepository.GetAll() as List<Student>;
+                List<Class> classes =await unitOf.CLassRepository.GetAll() as List<Class>;
+                List<Subject> subjects =await unitOf.SubjectRepository.GetAll() as List<Subject>;
+
+                Console.WriteLine($"teacher: { teachers.Count() }");
+                Console.WriteLine($"students: { students.Count() }");
+                Console.WriteLine($"classes: { classes.Count() }");
+                Console.WriteLine($"subjects: { subjects.Count()}");
+
             }
+
         }
     }
 }

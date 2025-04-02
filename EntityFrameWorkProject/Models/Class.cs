@@ -23,7 +23,8 @@ namespace EntityFrameWorkProject.Models
         public string Level { get; set; }
 
         [Required]
+        
         public int TeacherId { get; set; }
-        public Person? Teacher  { get; set; }
+        public Teacher? Teacher { get; set; }
     }
 }

@@ -104,8 +104,7 @@ namespace EntityFrameWorkProject.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_Classes_TeacherId",
                 table: "Classes",
-                column: "TeacherId",
-                unique: true);
+                column: "TeacherId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Enrollments_ClassId",
@@ -122,9 +121,7 @@ namespace EntityFrameWorkProject.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_Persons_SubjectId",
                 table: "Persons",
-                column: "SubjectId",
-                unique: true,
-                filter: "[SubjectId] IS NOT NULL");
+                column: "SubjectId");
         }
 
         /// <inheritdoc />

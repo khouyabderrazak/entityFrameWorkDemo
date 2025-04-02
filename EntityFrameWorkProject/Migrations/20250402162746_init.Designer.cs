@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EntityFrameWorkProject.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250402124246_init")]
+    [Migration("20250402162746_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -50,8 +50,7 @@ namespace EntityFrameWorkProject.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("TeacherId")
-                        .IsUnique();
+                    b.HasIndex("TeacherId");
 
                     b.ToTable("Classes");
                 });
@@ -166,18 +165,16 @@ namespace EntityFrameWorkProject.Migrations
                     b.Property<int>("SubjectId")
                         .HasColumnType("int");
 
-                    b.HasIndex("SubjectId")
-                        .IsUnique()
-                        .HasFilter("[SubjectId] IS NOT NULL");
+                    b.HasIndex("SubjectId");
 
                     b.HasDiscriminator().HasValue("teacher");
                 });
 
             modelBuilder.Entity("EntityFrameWorkProject.Models.Class", b =>
                 {
-                    b.HasOne("EntityFrameWorkProject.Models.Person", "Teacher")
-                        .WithOne()
-                        .HasForeignKey("EntityFrameWorkProject.Models.Class", "TeacherId")
+                    b.HasOne("EntityFrameWorkProject.Models.Teacher", "Teacher")
+                        .WithMany("Classes")
+                        .HasForeignKey("TeacherId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -206,12 +203,22 @@ namespace EntityFrameWorkProject.Migrations
             modelBuilder.Entity("EntityFrameWorkProject.Models.Teacher", b =>
                 {
                     b.HasOne("EntityFrameWorkProject.Models.Subject", "Subject")
-                        .WithOne()
-                        .HasForeignKey("EntityFrameWorkProject.Models.Teacher", "SubjectId")
+                        .WithMany("Teachers")
+                        .HasForeignKey("SubjectId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Subject");
+                });
+
+            modelBuilder.Entity("EntityFrameWorkProject.Models.Subject", b =>
+                {
+                    b.Navigation("Teachers");
+                });
+
+            modelBuilder.Entity("EntityFrameWorkProject.Models.Teacher", b =>
+                {
+                    b.Navigation("Classes");
                 });
 #pragma warning restore 612, 618
         }
