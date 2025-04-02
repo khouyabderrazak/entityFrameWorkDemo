@@ -9,6 +9,6 @@ namespace EntityFrameWorkProject.Data
     public interface IReadOnlyRepository<T>
     {
         Task<T> GetById(int id);
-        Task<IList<T>> GetAll();
+        Task<List<T>> GetAll();
     }
 }

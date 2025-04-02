@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|c:\\users\\akhouy\\desktop\\projets\\entityframeworkproject\\entityframeworkproject\\models\\v_teacher_subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|solutionrelative:entityframeworkproject\\models\\v_teacher_subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|c:\\users\\akhouy\\desktop\\projets\\entityframeworkproject\\entityframeworkproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|solutionrelative:entityframeworkproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|c:\\users\\akhouy\\desktop\\projets\\entityframeworkproject\\entityframeworkproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|solutionrelative:entityframeworkproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|c:\\users\\akhouy\\desktop\\projets\\entityframeworkproject\\entityframeworkproject\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|solutionrelative:entityframeworkproject\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|c:\\users\\akhouy\\desktop\\projets\\entityframeworkproject\\entityframeworkproject\\data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,24 +27,16 @@
       "RelativeMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|solutionrelative:entityframeworkproject\\data\\readonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|c:\\users\\akhouy\\desktop\\projets\\entityframeworkproject\\entityframeworkproject\\data\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|solutionrelative:entityframeworkproject\\data\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|c:\\users\\akhouy\\desktop\\projets\\entityframeworkproject\\entityframeworkproject\\data\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|solutionrelative:entityframeworkproject\\data\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|c:\\users\\akhouy\\desktop\\projets\\entityframeworkproject\\entityframeworkproject\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|solutionrelative:entityframeworkproject\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|c:\\users\\akhouy\\desktop\\projets\\entityframeworkproject\\entityframeworkproject\\data\\ireadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|solutionrelative:entityframeworkproject\\data\\ireadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|c:\\users\\akhouy\\desktop\\projets\\entityframeworkproject\\entityframeworkproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|solutionrelative:entityframeworkproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|c:\\users\\akhouy\\desktop\\projets\\entityframeworkproject\\entityframeworkproject\\data\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|solutionrelative:entityframeworkproject\\data\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C08E8FF-EFAC-477D-9EC7-600D97B92A89}|EntityFrameWorkProject\\EntityFrameWorkProject.csproj|c:\\users\\akhouy\\desktop\\projets\\entityframeworkproject\\entityframeworkproject\\entityframeworkproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -94,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,46 +130,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "V_Teacher_Subject.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Models\\V_Teacher_Subject.cs",
+              "RelativeDocumentMoniker": "EntityFrameWorkProject\\Models\\V_Teacher_Subject.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Models\\V_Teacher_Subject.cs",
+              "RelativeToolTip": "EntityFrameWorkProject\\Models\\V_Teacher_Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T22:57:49.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ReadOnlyRepository.cs",
               "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\ReadOnlyRepository.cs",
               "RelativeDocumentMoniker": "EntityFrameWorkProject\\Data\\ReadOnlyRepository.cs",
               "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\ReadOnlyRepository.cs",
               "RelativeToolTip": "EntityFrameWorkProject\\Data\\ReadOnlyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T17:05:56.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Program.cs",
               "RelativeDocumentMoniker": "EntityFrameWorkProject\\Program.cs",
               "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Program.cs",
               "RelativeToolTip": "EntityFrameWorkProject\\Program.cs",
-              "ViewState": "AgIAAEcAAACA/f////8XwFwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAyczMzAwnwHMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T10:26:02.724Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "EntityFrameWorkProject\\Data\\UnitOfWork.cs",
               "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\UnitOfWork.cs",
               "RelativeToolTip": "EntityFrameWorkProject\\Data\\UnitOfWork.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAByPRQAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T15:15:40.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\Repository.cs",
+              "RelativeDocumentMoniker": "EntityFrameWorkProject\\Data\\Repository.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\Repository.cs",
+              "RelativeToolTip": "EntityFrameWorkProject\\Data\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:55:08.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\IRepository.cs",
+              "RelativeDocumentMoniker": "EntityFrameWorkProject\\Data\\IRepository.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\IRepository.cs",
+              "RelativeToolTip": "EntityFrameWorkProject\\Data\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T14:49:28.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EntityFrameWorkProject\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "EntityFrameWorkProject\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABoAAABAy8zMzMwqwCYAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T10:42:41.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IReadOnlyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\IReadOnlyRepository.cs",
+              "RelativeDocumentMoniker": "EntityFrameWorkProject\\Data\\IReadOnlyRepository.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\IReadOnlyRepository.cs",
+              "RelativeToolTip": "EntityFrameWorkProject\\Data\\IReadOnlyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T16:56:56.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "EntityFrameWorkProject\\Data\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\IUnitOfWork.cs",
+              "RelativeToolTip": "EntityFrameWorkProject\\Data\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:12:25.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "EntityFrameWorkProject.csproj",
               "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\EntityFrameWorkProject.csproj",
               "RelativeDocumentMoniker": "EntityFrameWorkProject\\EntityFrameWorkProject.csproj",
@@ -173,64 +255,11 @@
               "RelativeToolTip": "EntityFrameWorkProject\\EntityFrameWorkProject.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-02T10:34:34.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T10:34:34.734Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\Repository.cs",
-              "RelativeDocumentMoniker": "EntityFrameWorkProject\\Data\\Repository.cs",
-              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\Repository.cs",
-              "RelativeToolTip": "EntityFrameWorkProject\\Data\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T14:55:08.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\IRepository.cs",
-              "RelativeDocumentMoniker": "EntityFrameWorkProject\\Data\\IRepository.cs",
-              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\IRepository.cs",
-              "RelativeToolTip": "EntityFrameWorkProject\\Data\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T14:49:28.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "EntityFrameWorkProject\\Data\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\IUnitOfWork.cs",
-              "RelativeToolTip": "EntityFrameWorkProject\\Data\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T15:12:25.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IReadOnlyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\IReadOnlyRepository.cs",
-              "RelativeDocumentMoniker": "EntityFrameWorkProject\\Data\\IReadOnlyRepository.cs",
-              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\IReadOnlyRepository.cs",
-              "RelativeToolTip": "EntityFrameWorkProject\\Data\\IReadOnlyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T16:56:56.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Class.cs",
               "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Models\\Class.cs",
               "RelativeDocumentMoniker": "EntityFrameWorkProject\\Models\\Class.cs",
@@ -242,20 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "EntityFrameWorkProject\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "EntityFrameWorkProject\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAD4AAABAvczMzMwswFAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T10:42:41.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Teacher.cs",
               "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Models\\Teacher.cs",
               "RelativeDocumentMoniker": "EntityFrameWorkProject\\Models\\Teacher.cs",
@@ -267,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\appsettings.json",
               "RelativeDocumentMoniker": "EntityFrameWorkProject\\appsettings.json",
@@ -279,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "20250402162550_updatDatabases.cs",
               "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Migrations\\20250402162550_updatDatabases.cs",
               "RelativeDocumentMoniker": "EntityFrameWorkProject\\Migrations\\20250402162550_updatDatabases.cs",
@@ -291,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Subject.cs",
               "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Models\\Subject.cs",
               "RelativeDocumentMoniker": "EntityFrameWorkProject\\Models\\Subject.cs",
@@ -303,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "20250402162746_init.cs",
               "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Migrations\\20250402162746_init.cs",
               "RelativeDocumentMoniker": "EntityFrameWorkProject\\Migrations\\20250402162746_init.cs",
@@ -315,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "20250402123430_init.cs",
               "DocumentMoniker": "C:\\Users\\akhouy\\source\\repos\\EntityFrameWorkProject\\EntityFrameWorkProject\\Migrations\\20250402123430_init.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\EntityFrameWorkProject\\EntityFrameWorkProject\\Migrations\\20250402123430_init.cs",
@@ -326,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "20250402122332_init.cs",
               "DocumentMoniker": "C:\\Users\\akhouy\\source\\repos\\EntityFrameWorkProject\\EntityFrameWorkProject\\Migrations\\20250402122332_init.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\EntityFrameWorkProject\\EntityFrameWorkProject\\Migrations\\20250402122332_init.cs",
@@ -337,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "20250402122038_init.cs",
               "DocumentMoniker": "C:\\Users\\akhouy\\source\\repos\\EntityFrameWorkProject\\EntityFrameWorkProject\\Migrations\\20250402122038_init.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\EntityFrameWorkProject\\EntityFrameWorkProject\\Migrations\\20250402122038_init.cs",
@@ -348,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Models\\Person.cs",
               "RelativeDocumentMoniker": "EntityFrameWorkProject\\Models\\Person.cs",
@@ -360,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Models\\Student.cs",
               "RelativeDocumentMoniker": "EntityFrameWorkProject\\Models\\Student.cs",
@@ -372,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "20250402121517_init.cs",
               "DocumentMoniker": "C:\\Users\\akhouy\\source\\repos\\EntityFrameWorkProject\\EntityFrameWorkProject\\Migrations\\20250402121517_init.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\EntityFrameWorkProject\\EntityFrameWorkProject\\Migrations\\20250402121517_init.cs",
@@ -383,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Enrollment.cs",
               "DocumentMoniker": "C:\\Users\\akhouy\\Desktop\\projets\\EntityFrameWorkProject\\EntityFrameWorkProject\\Models\\Enrollment.cs",
               "RelativeDocumentMoniker": "EntityFrameWorkProject\\Models\\Enrollment.cs",

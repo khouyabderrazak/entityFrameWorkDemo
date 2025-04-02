@@ -30,11 +30,14 @@ namespace EntityFrameWorkProject.Data
 
         public DbSet<Person> Persons { get; set; }
 
+        public DbSet<V_Teacher_Subject> V_Teacher_Subjects { get; set; } 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            
+            modelBuilder.Entity<V_Teacher_Subject>().HasKey(t => new { t.SubjectId, t.Id });
+           
             modelBuilder.Entity<Person>()
                 .HasDiscriminator<string>("type")
                 .HasValue<Student>("student")

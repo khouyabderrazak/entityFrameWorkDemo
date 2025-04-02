@@ -12,6 +12,7 @@ namespace EntityFrameWorkProject.Data
         Task<bool> DeleteOne(int id);
         //Task<T> GetById(int id);
         //Task<IList<T>> GetAll();
+
         Task<T> UpdateOne(T t);
     }
 }

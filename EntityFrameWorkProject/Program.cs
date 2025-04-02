@@ -3,10 +3,7 @@ using EntityFrameWorkProject.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Identity.Client;
-using System.Diagnostics.Tracing;
-using System.IO;
-using System.Threading.Tasks;
+
 
 
 // Source: StackOverflow – Resolving the issue of no DbContext instance available during migration.
@@ -42,6 +39,8 @@ namespace EFCore
             {
                 IUnitOfWork unitOf = new UnitOfWork(sc);
 
+                //writing operations
+
                 await unitOf.SubjectRepository.addOne(new Subject()
                 {
                     Name = "some subject",
@@ -51,7 +50,6 @@ namespace EFCore
 
                 await unitOf.TeacherRepository.addOne(new Teacher()
                 {
-
                     FirstName = "ali",
                     LastName = "khouy",
                     SubjectId = 1,
@@ -61,7 +59,6 @@ namespace EFCore
 
                 await unitOf.StudentRepository.addOne(new Student()
                 {
-
                     FirstName = "saida",
                     LastName = "khouy",
                     StudentNumber = 123
@@ -77,22 +74,51 @@ namespace EFCore
 
                 await unitOf.CompleteAsyn();
 
-                List<Teacher> teachers =await unitOf.TeacherReadOnlyRepository.GetAll() as List<Teacher>;
-                List<Student> students =await unitOf.StudentReadOnlyRepository.GetAll() as List<Student>;
-                List<Class> classes =await unitOf.CLassReadOnlyRepository.GetAll() as List<Class>;
-                List<Subject> subjects =await unitOf.SubjectReadOnlyRepository.GetAll() as List<Subject>;
+                //reading operations
 
-                Console.WriteLine($"teachers: { teachers.Count() }");
-                Console.WriteLine($"students: { students.Count() }");
-                Console.WriteLine($"classes: { classes.Count() }");
-                Console.WriteLine($"subjects: { subjects.Count()}");
+                List<Teacher> teachers = await unitOf.TeacherReadOnlyRepository.GetAll();
+
+                List<Student> students =await unitOf.StudentReadOnlyRepository.GetAll();
+
+                List<Class> classes =await unitOf.CLassReadOnlyRepository.GetAll();
+
+                List<Subject> subjects =await unitOf.SubjectReadOnlyRepository.GetAll();
+
+                Console.WriteLine($"number of teachers: { teachers.Count() }");
+                Console.WriteLine($"number of students: { students.Count() }");
+                Console.WriteLine($"number of classes: { classes.Count() }");
+                Console.WriteLine($"nomber of subjects: { subjects.Count()}");
 
 
                 //use stored procedure
 
-                //var student = await sc.Persons.FromSqlRaw("EXEC [GetStudentByStudentNumber] @p0", 122).FirstOrDefaultAsync();
+                Console.WriteLine("\n_____________________________________________stored procedure_________________________");
 
-                //Console.WriteLine( student.FirstName);
+                var students2 = sc.Persons
+                 .FromSqlRaw("EXEC [GetStudentByStudentNumber] @p0", 1222)
+                 .AsEnumerable();
+
+                var student = students2.FirstOrDefault();
+
+                if (student != null)
+                {
+                    Console.WriteLine(student?.FirstName);
+                }
+                else
+                {
+                    Console.WriteLine("No student found.");
+                }
+
+                //use teacher_subject_vue
+
+                Console.WriteLine("\n_____________________________________________teacher_subject_vue_______________________________________________________________________");
+
+                var teacherSubjects = sc.V_Teacher_Subjects.ToList();
+
+                foreach (var item in teacherSubjects)
+                {
+                    Console.WriteLine($"Teacher: {item.FirstName}, Subject: {item.LastName}");
+                }
 
             }
 

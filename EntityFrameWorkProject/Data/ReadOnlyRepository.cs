@@ -15,7 +15,7 @@ namespace EntityFrameWorkProject.Data
             _db = db;
         }
 
-        public async Task<IList<T>> GetAll()
+        public async Task<List<T>> GetAll()
         {
             return await _db.Set<T>().ToListAsync();
         }
